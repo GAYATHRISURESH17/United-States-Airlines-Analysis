@@ -1,0 +1,65 @@
+Rank(2023),Airports,IATACode,cities served,Metro area,State,2023[2],2022[3],2021[4],2020[5],2019[6],2018[7],2017[8],2016[9],2015[10],2014[11],Hub
+1,Hartsfield–Jackson Atlanta International Airport,ATL,Atlanta,Atlanta,GA,"50,950,068","45,396,001","36,676,010","20,559,866","53,505,795","51,865,797","50,251,964","50,501,858","49,340,732","46,604,273",Large
+2,Los Angeles International Airport,LAX,Los Angeles,Greater Los Angeles,CA,"40,956,673","32,326,616","23,663,410","14,055,777","42,939,104","42,624,050","41,232,432","39,636,042","36,351,272","34,314,197",Large
+3,Dallas Fort Worth International Airport,DFW,Dallas and Fort Worth,Dallas–Fort Worth,TX,"39,246,212","35,345,138","30,005,266","18,593,421","35,778,573","32,821,799","31,816,933","31,283,579","31,589,839","30,804,567",Large
+4,Denver International Airport,DEN,Denver,Denver,CO,"37,863,967","33,773,832","28,645,527","16,243,216","33,592,945","31,362,941","29,809,097","28,267,394","26,280,043","26,000,591",Large
+5,O'Hare International Airport,ORD,Chicago,Chicagoland,IL,"35,843,104","33,120,474","26,350,976","14,606,034","40,871,223","39,873,927","38,593,028","37,589,899","36,305,668","33,843,426",Large
+6,John F. Kennedy International Airport,JFK,New York City,New York Metro,NY,"30,804,355","27,154,885","15,273,342","8,269,819","31,036,655","30,620,769","29,533,154","29,239,151","27,782,369","26,244,928",Large
+7,Orlando International Airport,MCO,Orlando,Greater Orlando,FL,"28,033,205","24,469,733","19,618,838","10,467,728","24,562,271","23,202,480","21,565,448","20,283,541","18,759,938","17,278,608",Large
+8,Harry Reid International Airport,LAS,Las Vegas,Las Vegas,NV,"27,896,199","25,480,500","19,160,342","10,584,059","24,728,361","23,795,012","23,364,393","22,833,267","21,857,693","20,620,248",Large
+9,Charlotte Douglas International Airport,CLT,Charlotte,Charlotte,NC,"25,896,224","23,100,300","20,900,875","12,952,869","24,199,688","22,281,949","22,011,251","21,511,880","21,913,166","21,537,725",Large
+10,Miami International Airport,MIA,Miami,Miami Metro,FL,"24,717,048","23,949,892","17,500,096","8,786,007","21,421,031","21,021,640","20,709,225","20,875,813","20,986,349","19,471,466",Large
+11,Seattle–Tacoma International Airport,SEA,Seattle and Tacoma,Seattle Metro,WA,"24,594,210","22,157,862","17,430,195","9,462,411","25,001,762","24,024,908","22,639,124","21,887,110","20,148,980","17,888,080",Large
+12,Newark Liberty International Airport,EWR,Newark and New York City,New York Metro,NJ,"24,575,320","21,774,690","14,514,049","7,985,474","23,160,763","22,797,602","21,571,198","19,923,009","18,684,818","17,773,405",Large
+13,San Francisco International Airport,SFO,San Francisco,San Francisco Bay Area,CA,"24,191,159","20,411,420","11,725,347","7,745,057","27,779,230","27,790,717","26,900,048","25,707,101","24,190,560","22,770,783",Large
+14,Phoenix Sky Harbor International Airport,PHX,Phoenix,Phoenix,AZ,"23,880,504","21,852,586","18,940,287","10,531,436","22,433,552","21,622,580","21,185,458","20,896,265","21,351,504","20,344,867",Large
+15,George Bush Intercontinental Airport,IAH,Houston,Houston,TX,"22,228,844","19,814,052","16,242,821","8,682,558","21,905,309","21,157,398","19,603,731","20,062,072","20,595,881","19,772,087",Large
+16,Logan International Airport,BOS,Boston,Boston,MA,"19,962,678","17,443,775","10,909,817","6,035,452","20,699,377","20,006,521","18,759,742","17,759,044","16,290,362","15,507,561",Large
+17,Fort Lauderdale–Hollywood International Airport,FLL,Fort Lauderdale and Hollywood,Miami Metro,FL,"17,063,063","15,370,165","13,598,994","8,015,744","17,950,989","17,612,331","15,817,043","14,263,270","13,061,632","12,031,860",Large
+18,Minneapolis–Saint Paul International Airport,MSP,Minneapolis and Saint Paul,Minneapolis–Saint Paul,MN,"17,019,128","15,242,089","12,211,409","7,069,720","19,192,917","18,361,942","18,409,704","18,123,844","17,634,273","16,972,678",Large
+19,LaGuardia Airport,LGA,New York City,New York Metro,NY,"16,173,073","14,367,463","7,827,307","4,147,116","15,393,601","15,058,501","14,614,802","14,762,593","14,319,924","13,535,372",Large
+20,Detroit Metropolitan Airport,DTW,Detroit,Detroit Metro,MI,"15,378,601","13,751,197","11,517,696","6,822,324","18,143,040","17,436,837","17,036,092","16,847,135","16,255,520","15,775,941",Large
+21,Philadelphia International Airport,PHL,Philadelphia,Philadelphia Metro,PA,"13,656,189","12,421,168","9,820,222","5,753,239","16,006,389","15,292,670","14,271,243","14,564,419","15,101,349","14,792,339",Large
+22,Salt Lake City International Airport,SLC,Salt Lake City,Salt Lake City,UT,"12,905,368","12,383,843","10,795,906","5,753,239","12,840,841","12,226,730","11,615,954","11,143,738","10,634,538","10,139,065",Large
+23,Baltimore/Washington International Airport,BWI,"Baltimore and Washington, D.C.",Baltimore,MD,"12,849,721","11,151,169","9,253,561","5,451,355","13,284,687","13,371,816","12,976,554","12,340,972","11,738,845","11,022,200",Large
+24,Ronald Reagan Washington National Airport,DCA,"Washington, D.C.",Washington Metro,VA,"12,365,030","11,553,850","6,731,737","3,573,489","11,595,454","11,367,176","11,506,310","11,470,854","11,242,375","10,057,794",Large
+25,San Diego International Airport,SAN,San Diego,San Diego,CA,"12,190,183","11,162,224","7,836,360","4,637,856","12,648,692","12,174,224","11,139,933","10,340,164","9,985,763","9,333,152",Large
+26,Dulles International Airport,IAD,"Washington, D.C.",Washington Metro,VA,"12,073,571","10,266,324","7,227,875","3,862,658","11,884,117","11,621,623","11,024,306","10,596,942","10,363,974","10,415,948",Large
+27,Tampa International Airport,TPA,Tampa,Tampa,FL,"11,677,632","10,539,459","8,847,197","4,966,775","10,978,756","10,368,514","9,548,580","9,194,994","9,150,458","8,531,561",Large
+28,Nashville International Airport,BNA,Nashville,Nashville,TN,"11,227,243","9,829,062","7,594,049","4,013,995","8,935,654","8,017,347","6,902,771","6,338,517","5,715,205","5,396,958",Large
+29,Austin–Bergstrom International Airport,AUS,Austin,Austin,TX,"10,833,443","10,382,573","6,666,215","3,141,505","8,683,711","7,921,797","6,973,115","6,095,545","5,797,547","5,219,982",Large
+30,Midway International Airport,MDW,Chicago,Chicagoland,IL,"10,659,520","9,650,281","7,680,617","4,236,603","10,081,781","10,678,018","10,912,074","11,044,387","10,830,850","10,311,996",Large
+31,Daniel K. Inouye International Airport,HNL,Honolulu,Honolulu,HI,"10,149,761","8,828,395","5,830,928","3,126,391","9,988,678","9,578,505","9,743,989","9,656,340","9,656,340","9,463,000",Large
+32,Dallas Love Field,DAL,Dallas,Dallas–Fort Worth,TX,"8,559,052","7,819,129","6,487,563","3,669,930","8,408,457","8,134,848","7,876,769","7,554,596","7,040,921","4,522,341",Medium
+33,Portland International Airport,PDX,Portland,Portland,OR,"8,123,054","7,241,882","5,759,879","3,455,877","9,797,408","9,940,866","9,435,473","9,071,154","8,340,234","7,878,760",Medium
+34,St. Louis Lambert International Airport,STL,St. Louis,St. Louis,MO,"7,307,561","6,709,080","5,070,471","3,041,765","7,946,986","7,822,274","7,372,805","6,793,076","6,239,231","6,108,758",Medium
+35,Raleigh–Durham International Airport,RDU,Raleigh,Research Triangle,NC,"7,119,040","5,849,665","4,311,049","2,337,496","6,919,429","6,416,822","5,851,004","5,401,714","4,954,717","4,673,869",Medium
+36,William P. Hobby Airport,HOU,Houston,Houston,TX,"6,800,329","6,462,948","5,560,780","3,127,178","7,069,614","6,937,061","6,741,870","6,285,181","5,937,944","5,800,726",Medium
+37,Sacramento International Airport,SMF,Sacramento,Sacramento,CA,"6,371,910","6,040,824","4,760,275","2,710,342","6,454,413","6,031,630","5,460,526","4,969,366","4,816,440","4,384,616",Medium
+38,Louis Armstrong New Orleans International Airport,MSY,New Orleans,New Orleans,LA,"6,309,212","5,931,899","4,017,147","2,632,606","6,717,105","6,565,482","6,005,527","5,569,705","5,329,696","4,870,569",Medium
+39,Luis Muñoz Marín International Airport,SJU,San Juan,San Juan,PR,"5,985,001","5,039,771","4,738,725","2,362,851","4,590,117","4,033,412","4,163,587","4,343,354","4,218,785","4,150,828",Medium
+40,Norman Y. Mineta San José International Airport,SJC,San Jose,San Francisco Bay Area,CA,"5,958,855","5,590,137","3,619,690","2,283,186","7,828,885","7,140,616","6,225,148","5,321,603","4,885,690","4,621,003",Medium
+41,John Wayne Airport,SNA,Santa Ana,Greater Los Angeles,CA,"5,706,332","5,536,313","3,807,205","1,824,836","5,153,276","5,317,149","5,195,047","5,217,242","4,945,175","4,584,147",Medium
+42,Kansas City International Airport,MCI,Kansas City,Kansas City,MO,"5,654,068","4,796,476","3,795,290","2,167,616","5,759,419","5,935,131","5,744,918","5,391,557","5,135,127","4,982,722",Medium
+43,Oakland International Airport,OAK,Oakland,San Francisco Bay Area,CA,"5,520,812","5,506,232","4,011,953","2,271,294","6,560,230","6,798,321","6,530,308","5,934,639","5,506,672","5,069,257",Medium
+44,San Antonio International Airport,SAT,San Antonio,San Antonio,TX,"5,336,684","4,751,610","3,677,643","1,919,958","5,022,980","4,844,427","4,521,611","4,179,994","4,091,389","4,046,856",Medium
+45,Southwest Florida International Airport,RSW,Fort Myers,Southwest Florida,FL,"4,963,269","5,132,694","5,080,805","2,947,139","5,144,467","4,719,568","4,461,304","4,350,650","4,231,134","4,025,959",Medium
+46,Cleveland Hopkins International Airport,CLE,Cleveland,Cleveland,OH,"4,803,822","4,237,795","3,552,402","1,990,156","4,894,541","4,836,580","4,562,740","4,205,739","4,083,476","3,686,315",Medium
+47,Indianapolis International Airport,IND,Indianapolis,Indianapolis,IN,"4,788,376","4,209,416","3,487,100","1,989,126","4,709,183","4,695,040","4,376,432","4,216,766","3,889,567","3,605,908",Medium
+48,Pittsburgh International Airport,PIT,Pittsburgh,Pittsburgh,PA,"4,493,052","3,918,968","3,069,259","1,742,406","4,715,947","4,670,033","4,327,431","3,986,114","3,890,677","3,827,860",Medium
+49,Cincinnati/Northern Kentucky International Airport,CVG,Cincinnati,Cincinnati,KY,"4,287,722","3,702,997","3,050,597","1,729,395","4,413,457","4,269,258","3,926,158","3,269,979","3,036,697","2,874,684",Medium
+50,John Glenn Columbus International Airport,CMH,Columbus,Columbus,OH,"4,095,189","3,618,555","2,825,259","1,577,596","4,172,067","4,054,572","3,765,007","3,567,864","3,312,496","3,115,501",Medium
+51,Palm Beach International Airport,PBI,West Palm Beach,Miami Metro,FL,"3,815,977","3,257,730","2,567,897","1,518,732","3,460,429","3,263,042","3,166,532","3,100,624","3,113,485","2,926,242",Medium
+52,Kahului Airport,OGG,Kahului,Maui,HI,"3,745,866","4,125,311","2,933,315","1,135,141","3,791,807","3,572,133","3,442,189","3,352,813","3,220,753","3,019,338",Medium
+53,Jacksonville International Airport,JAX,Jacksonville,Jacksonville,FL,"3,619,739","3,177,393","2,425,685","1,367,501","3,479,923","3,118,540","2,759,067","2,799,587","2,716,465","2,589,198",Medium
+54,Ontario International Airport,ONT,Ontario,Greater Los Angeles,CA,"3,181,161","2,840,758","2,201,528","1,237,946","2,723,002","2,499,171","2,247,645","2,127,387","2,089,801","2,037,346",Medium
+55,Hollywood Burbank Airport,BUR,Burbank,Greater Los Angeles,CA,"3,132,029","3,054,729","1,942,417","1,056,838","2,988,720","2,680,240","2,402,106","2,077,892","1,973,897","1,928,491",Medium
+56,Bradley International Airport,BDL,Hartford,Hartford,CT,"3,122,212","2,844,713","2,273,259","1,150,033","3,323,614","3,330,734","3,214,976","2,982,194","2,926,047","2,913,380",Medium
+57,Charleston International Airport,CHS,Charleston,Charleston,SC,"3,032,768","2,608,497","2,015,277","944,660","2,375,868","2,192,893","1,945,699","1,811,695","1,669,988","1,539,326",Medium
+58,Milwaukee Mitchell International Airport,MKE,Milwaukee,Milwaukee,WI,"2,959,840","2,671,281","2,231,010","1,263,385","3,374,073","3,548,817","3,452,544","3,383,271","3,229,876","3,228,607",Medium
+59,Ted Stevens Anchorage International Airport,ANC,Anchorage,Anchorage,AK,"2,681,818","2,604,308","2,184,959","1,157,301","2,713,843","2,642,901","2,556,188","2,563,524","2,525,876","2,381,826",Medium
+60,Albuquerque International Sunport,ABQ,Albuquerque,Albuquerque,NM,"2,605,163","2,317,836","1,688,646","868,922","2,641,450","2,647,269","2,412,328","2,341,719","2,323,883","2,354,184",Medium
+61,Eppley Airfield,OMA,Omaha,Omaha,NE,"2,464,418","2,204,395","1,829,912","1,036,245","2,455,274","2,457,087","2,303,223","2,127,387","2,046,155","2,020,354",Medium
+62,Memphis International Airport,MEM,Memphis,Memphis,TN,"2,399,876","2,163,692","1,793,073","1,015,981","2,318,442","2,213,083","2,102,739","2,016,089","1,873,716","1,800,268",Medium
+63,Richmond International Airport,RIC,Richmond,Richmond,VA,"2,399,239","2,042,834","1,603,149","847,811","2,190,907","2,048,691","1,822,486","1,777,648","1,740,391","1,671,096",Medium
+64,Boise Airport,BOI,Boise,Boise,ID,"2,369,164","2,230,467","1,809,000","991,241","2,057,750","1,943,181","1,777,642","1,633,507","1,487,777","1,378,352",Medium

@@ -1,0 +1,154 @@
+USE project__2_airlines;
+
+CREATE VIEW merged_df2_df3 AS
+SELECT
+    df2.id AS df2_id,
+    df2.ident AS type,
+    df2.name,
+    df2.latitude_deg,
+    df2.longitude_deg,
+    df2.elevation_ft,
+    df2.iso_country,
+    df2.iso_region,
+    df2.municipality,
+    df2.scheduled_service,
+    df3.id AS df3_id,
+    df3.airport_ref,
+    df3.airport_ident,
+    df3.length_ft,
+    df3.width_ft,
+    df3.surface,
+    df3.lighted AS lighted,
+    df3.closed AS closed,
+    df3.le_ident,
+    df3.he_ident
+FROM
+    project__2_airlines.df2 AS df2
+JOIN
+    project__2_airlines.df3 AS df3 ON df2.ident = df3.airport_ident;
+    
+    
+CREATE VIEW merged_df1_df2_df3 AS
+SELECT
+    df1.id AS df1_id,
+    df1.Airline,
+    df1.Flight,
+    df1.AirportFrom,
+    df1.AirportTo,
+    df1.DayOfWeek,
+    df1.Time,
+    df1.Length,
+    df1.Delay,
+    df2.df2_id,
+    df2.type,
+    df2.name,
+    df2.latitude_deg,
+    df2.longitude_deg,
+    df2.elevation_ft,
+    df2.iso_country,
+    df2.iso_region,
+    df2.municipality,
+    df2.scheduled_service,
+    df3.df3_id,
+    df3.airport_ref,
+    df3.airport_ident,
+    df3.length_ft,
+    df3.width_ft,
+    df3.surface,
+    df3.lighted,
+    df3.closed,
+    df3.le_ident,
+    df3.he_ident
+FROM
+    project__2_airlines.df1 AS df1
+LEFT JOIN
+    (SELECT
+         id AS df2_id,
+         ident AS type,
+         name,
+         latitude_deg,
+         longitude_deg,
+         elevation_ft,
+         iso_country,
+         iso_region,
+         municipality,
+         scheduled_service
+     FROM
+         project__2_airlines.df2) AS df2 ON df1.id = df2.df2_id
+LEFT JOIN
+    (SELECT
+         id AS df3_id,
+         airport_ref,
+         airport_ident,
+         length_ft,
+         width_ft,
+         surface,
+         lighted,
+         closed,
+         le_ident,
+         he_ident
+     FROM
+         project__2_airlines.df3) AS df3 ON df1.id = df3.df3_id;
+         
+SELECT * FROM merged_df1_df2_df3;
+
+-- Task 1 Determine the number of flights that are delayed on various days of the week
+
+SELECT DayOfWeek,
+       COUNT(*) AS delayed_flights
+FROM df1
+WHERE Delay > 0
+GROUP BY DayOfWeek
+ORDER BY DayOfWeek;
+
+-- Task 2 Determine the number of delayed flights for various airlines
+
+SELECT Airline,
+       COUNT(*) AS delayed_flights
+FROM merged_df1_df2_df3
+WHERE Delay > 0
+GROUP BY Airline
+ORDER BY delayed_flights DESC;
+
+-- Task 3 Determine how many delayed flights land at airport with at least 10 runways
+
+-- No data available regarding number of runways in any of data file
+
+-- Task 4 (Hidden Task)
+
+-- to calculate average elevation
+
+SELECT AVG(elevation_ft) AS average_elevation
+FROM merged_df1_df2_df3;
+
+
+-- Task 4  Compare the number of delayed flights at airports higher than average elevation and those that 
+-- are lower than average elevation for both source and destination airports
+
+
+SELECT
+    AirportFrom,
+    SUM(CASE WHEN elevation_ft < 1109 THEN 1 ELSE 0 END) AS delays_below_1109,
+    SUM(CASE WHEN elevation_ft > 1109 THEN 1 ELSE 0 END) AS delays_above_1109
+FROM
+    merged_df1_df2_df3
+WHERE
+    Delay > 0
+GROUP BY
+    AirportFrom;
+    
+SELECT
+    AirportTo,
+    SUM(CASE WHEN elevation_ft < 1109 THEN 1 ELSE 0 END) AS delays_below_1109,
+    SUM(CASE WHEN elevation_ft > 1109 THEN 1 ELSE 0 END) AS delays_above_1109
+FROM
+    merged_df1_df2_df3
+WHERE
+    Delay > 0
+GROUP BY
+     AirportTo;
+
+
+
+
+
